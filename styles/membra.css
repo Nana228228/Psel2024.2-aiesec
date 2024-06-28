@@ -1,0 +1,10 @@
+
+@media screen and (max-width: 750px){
+    #oportunidades {
+        display: block;
+        flex-direction: row;
+        flex-wrap: wrap;}
+    #Leadership-Values{
+            width: 100%; 
+        }
+}

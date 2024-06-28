@@ -1,0 +1,8 @@
+@media screen and (max-width: 1120px){
+    #Proposito {padding: 2%;}
+    .propósitos {max-width: none;
+    padding: 5%;
+min-height: none;}
+    #container-propósitos {margin: 0%;
+    padding: 0%;}
+}

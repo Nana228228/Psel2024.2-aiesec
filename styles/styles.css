@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('header.css');
+@import url('home.css');
+@import url('outras.css');
+@import url(testimonials.css);
+@import url(footer.css);
+@import url(Proposito.css);
+@import url(membra.css);
+
+h2{margin: 2%;}
+:root {
+    --azul: #037ef3;    
+    --ciano: #0CB9C1;
+    --roxo: #7552CC;
+    --color-primary-4: #CACCD1;
+
+    --branco: #fff;
+    --color-neutral-1: #1d1d1d;
+
+}
+#navbar i {color: #037ef3;}
+/*        */
+html {max-width: 100%;}
+* {
+    font-family: 'lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    
+}
+
+body{min-width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    min-height: 100vh;
+    text-decoration: none;
+}
+h1{font-family: 'lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: medium;}
+
+
+span{font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:inherit;}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--branco);
+}
+
+section {
+    padding: 28px 4%;
+    display: block;
+    margin: auto;
+}
+
+.btn-default {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--ciano);
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.btn-main{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--roxo);
+    border-radius: 52px;
+    padding: 20px 44px; 
+    font-size: xx-large;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.btn-default:hover {
+    background-color: var(--ciano);
+}
+.main-social-media-buttons {
+    display: flex;
+    margin-left: 1.8rem;
+    margin-bottom: 2rem;
+    gap: 2rem;}
+
+    .main-social-media-buttons a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 75px;
+        height: 70px;
+        background-color: var(--branco);
+        font-size: 2.5rem;
+        border-radius: 50px;
+        text-decoration: none;
+        color: var(--color-neutral-1);;
+        box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+        transition: box-shadow .3s ease;}
+
+        .main-social-media-buttons i {font-size: xx-large;}
+.social-media-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: var(--branco);
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--color-neutral-1);;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .3s ease;
+}
+
+.social-media-buttons a:hover {
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    color: var(--azul);
+    font-size: 3rem
+}
+
+.section-title-fundoazul {margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    color: var(--branco);
+    font-size: 3rem;
+}
+
+
+    .section-subtitle {
+        text-align: center;
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+    }
+
+.section-subtitle-fundoazul {
+
+    font-size: 2.1875rem;
+    margin-bottom: 2rem;
+    color: var(--azul)
+}
+
+@media screen and (max-width: 1120px){
+    p {font-size: large;}}
+
+    @media screen and (max-width: 750px){
+        .section-title {
+            font-size: 2rem
+        }
+        
+        .section-title-fundoazul {
+            font-size: 2rem;
+        }
+        
+        
+            .section-subtitle {
+                text-align: center;
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
+            }
+        
+        .section-subtitle-fundoazul {
+        
+            font-size: 2.1875rem;
+            margin-bottom: 1.2rem;
+            color: var(--azul)
+    }}
