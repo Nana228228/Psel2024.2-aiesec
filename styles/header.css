@@ -47,7 +47,8 @@ left: 2.5rem;}
     .btn-default {
         margin-right: 3%;
     }
-    .btn-default p{font-size: small;}
+    .btn-default p{font-size: medium;
+                  font-weight: 600;}
     #logoimg{
         width: 5.8em;
         position: absolute;
