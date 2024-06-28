@@ -48,10 +48,11 @@ left: 2.5rem;}
         margin-right: 3%;
     }
     .btn-default p{font-size: medium;
-                  font-weight: 600;}
+                  font-weight: 700;
+                 width: 55%; }
     #logoimg{
         width: 5.8em;
         position: absolute;
         top: 1.5rem;
-    left: 2.2rem;}
+    left: 2.6rem;}
 }
