@@ -42,7 +42,7 @@ left: 2.5rem;}
 }
 
 @media screen and (max-width: 660px) {
-    header {height: 18%;
+    header {height: 38%;
            padding: 3%}
     #nav_list{display: none;}
     
