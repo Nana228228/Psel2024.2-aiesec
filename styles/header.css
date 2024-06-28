@@ -42,18 +42,16 @@ left: 2.5rem;}
 }
 
 @media screen and (max-width: 660px) {
-    header {
-           padding: 0%;}
+    header {height: 18%;
+           padding: 3%}
     #nav_list{display: none;}
-    .btn-default {
-        padding: 0.3%;}
-    }
+    
     .btn-default p{font-size: small;
                  
     #logoimg{
-        width: 5.5em;
+        width: 5em;
         position: absolute;
-        top: 1.5rem;
+        top: 1rem;
         left: 3rem;
         
     }
