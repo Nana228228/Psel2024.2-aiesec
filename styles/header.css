@@ -42,7 +42,7 @@ left: 2.5rem;}
 }
 
 @media screen and (max-width: 660px) {
-    header {height: 20%;
+    header {
            padding: 0%;}
     #nav_list{display: none;}
     .btn-default {
@@ -51,7 +51,7 @@ left: 2.5rem;}
     .btn-default p{font-size: small;
                  
     #logoimg{
-        width: 6.4em;
+        width: 5.5em;
         position: absolute;
         top: 1.5rem;
         left: 3rem;
