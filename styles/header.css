@@ -15,7 +15,7 @@ header {
 }
 
 #logoimg{
-    width:8.4em;
+    width: 7em;
     position: absolute;
     top: 1.5rem;
 left: 2.5rem;}
@@ -46,7 +46,7 @@ left: 2.5rem;}
     #nav_list{display: none;}
     .btn-default {
         margin-right: 3%;
-     min-width: 42%;
+     min-width: 52%;
      font-size: small;
 
     }
