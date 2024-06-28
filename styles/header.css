@@ -41,18 +41,16 @@ left: 2.5rem;}
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
     header {height: 20%;}
     #nav_list{display: none;}
     .btn-default {
         margin-right: 3%;
-     font-size: x-small;
-
     }
-
-#logoimg{
+    .btn-default p{font-size: x-small;}
+    #logoimg{
         width: 5.8em;
         position: absolute;
         top: 1.5rem;
-    left: 1.8rem;}
+    left: 2.2rem;}
 }
