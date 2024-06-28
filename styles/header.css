@@ -47,12 +47,13 @@ left: 2.5rem;}
     .btn-default {
         margin-right: 3%;
     }
-    .btn-default p{font-size: medium;
+    .btn-default p{font-size: large;
                   font-weight: 700;
                  width: 55%; }
     #logoimg{
         width: 5.8em;
         position: absolute;
         top: 1.5rem;
-    left: 2.6rem;}
+    }
+    header {padding: 3%}
 }
