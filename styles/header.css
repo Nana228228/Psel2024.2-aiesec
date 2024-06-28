@@ -46,16 +46,15 @@ left: 2.5rem;}
            padding: 0%;}
     #nav_list{display: none;}
     .btn-default {
-        margin-right: 3%;
-        width: 70%; 
-                  padding: 1%;}
+        padding: 0.3%;}
     }
     .btn-default p{font-size: small;
                  
     #logoimg{
-        width: 5.8em;
+        width: 6.4em;
         position: absolute;
         top: 1.5rem;
+        left: 3rem;
         
     }
 }
