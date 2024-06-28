@@ -42,8 +42,8 @@ left: 2.5rem;}
 }
 
 @media screen and (max-width: 660px) {
-    header {height: 45%;
-           padding: 3%}
+    header {
+           padding: 3%;}
     #nav_list{display: none;}
 
     .btn-default {width: 130px;}
